@@ -187,16 +187,64 @@ header nav a {
   margin-top: 7rem;
 }
 .carosel {
-  margin: 1rem;
-  margin-top: 7rem;
+  margin-top: 10rem;
 }
 .sec1 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-* {
-  box-sizing: border-box;
+.sec1 .frontCard {
+  margin: 2rem;
+  width: 45rem;
+  height: 60rem;
+  border: 1rem solid #F5B112;
+  background-color: #5D76A9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec1 .frontCard img {
+  width: 35rem;
+  height: auto;
+}
+.sec1 .backCard {
+  margin: 2rem;
+  width: 45rem;
+  height: 60rem;
+  border: 1rem solid #F5B112;
+  background-color: #5D76A9;
+}
+.sec1 .backCard .cardWords {
+  padding: 2rem;
+  color: #ffffff;
+  text-align: justify;
+}
+.sec1 .backCard .cardWords h2 {
+  padding-bottom: 3rem;
+  font-size: 3.7rem;
+  text-align: center;
+}
+.sec1 .backCard .cardWords h4 {
+  padding-bottom: 1rem;
+  font-size: 2.4rem;
+}
+.sec1 .backCard .cardWords p {
+  padding-top: 3rem;
+  font-size: 1.78em;
+}
+.youtubeLink {
+  width: 100%;
+  height: 80rem;
+  background-color: #5D76A9;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.youtubeLink iframe {
+  width: 95%;
+  height: 92%;
 }
 /* Slideshow container */
 .slideshow-container {
