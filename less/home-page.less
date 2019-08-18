@@ -1,9 +1,16 @@
 .carosel {
   margin-top: 10rem;
+  @media @mobile {
+    display: none;
+  }
 }
+
 
 .sec1 {
   .flex(center, center);
+  @media @mobile {
+    flex-direction: column;
+  }
 
   .frontCard {
     margin: 2rem;
@@ -23,6 +30,7 @@
     height: 60rem;
     border: 1rem solid @grizz-yellow;
     background-color: @beale-street-blue;
+
     .cardWords {
       padding: 2rem;
       color: @white;
@@ -39,6 +47,7 @@
       p {
         padding-top: 3rem;
         font-size: 1.78em;
+        margin-bottom: 1rem;
       }
     }
   }
