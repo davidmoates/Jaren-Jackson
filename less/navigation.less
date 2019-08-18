@@ -14,6 +14,9 @@ header {
       font-family: @grizz-font;
       color: @grizz-yellow;
       font-size: 2.0rem;
+      @media @mobile {
+        padding: 1rem;
+      }
 
     }
   }
@@ -22,4 +25,7 @@ header {
 #grizzImg {
   width: 27rem;
   margin-top: 7rem;
+  @media @mobile {
+    display: none;
+  }
 }

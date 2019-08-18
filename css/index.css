@@ -182,17 +182,37 @@ header nav a {
   color: #F5B112;
   font-size: 2rem;
 }
+@media (max-width: 980px) {
+  header nav a {
+    padding: 1rem;
+  }
+}
 #grizzImg {
   width: 27rem;
   margin-top: 7rem;
 }
+@media (max-width: 980px) {
+  #grizzImg {
+    display: none;
+  }
+}
 .carosel {
   margin-top: 10rem;
+}
+@media (max-width: 980px) {
+  .carosel {
+    display: none;
+  }
 }
 .sec1 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 980px) {
+  .sec1 {
+    flex-direction: column;
+  }
 }
 .sec1 .frontCard {
   margin: 2rem;
@@ -232,6 +252,7 @@ header nav a {
 .sec1 .backCard .cardWords p {
   padding-top: 3rem;
   font-size: 1.78em;
+  margin-bottom: 1rem;
 }
 .youtubeLink {
   width: 100%;
